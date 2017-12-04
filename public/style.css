@@ -6,3 +6,38 @@
 .red-quote{
   color: red;
 }
+
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+img {
+  width: 300px;
+}
+
+
+/*Flex items*/
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+	display: flex;
+  padding: 0.5em;
+	width: 100%;
+}
+
+#cats {
+	background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 1em;
+	width: 100%;
+}
+.list-content p {
+	flex: 1 0 auto;
+}
